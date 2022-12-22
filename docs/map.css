@@ -1,0 +1,109 @@
+html, body {margin:0;padding:0;height:100%;width:100%}
+
+#map { width: 100%; height:70vh;
+}
+
+
+.imgbulle {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.imgbulle .bulle {
+    visibility: hidden;
+    width: 400px;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1000;
+    /*border:3px solid black;*/
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color:white;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.imgbulle:hover .bulle {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.popup {
+    text-align:center;
+}
+.popup .slideshow .image        { display:none; }
+.popup .slideshow .image.active { display:block; }
+
+.popup .slideshow .caption {
+    background:#eee;
+    padding:10px;
+}
+.popup .cycle {
+    padding:10px 0 20px;
+}
+.popup .cycle a.prev { float:left; }
+.popup .cycle a.next { float:right; }
+
+.galleryyear        { display:none; }
+.galleryyear .active {  display:block; }
+
+
+.block {width: 95%; height:100%;overflow: hidden; padding:0px; margin-left:5% }
+.block .top {margin-left:10%; margin-right: 10% }
+.block .bottom { float: left; width: 100%; }
+
+#pichardGenerative{
+    width:100%;
+    padding: 0px;
+    white-space: nowrap;
+
+}
+
+#scrolllist{
+    overflow: scroll;
+    width: 70px;
+    height: 75vh;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#gallery{
+    display: inline-block;
+    width: 85%;
+    vertical-align: baseline;
+}
+
+#gallery .caption{
+    white-space: normal;
+
+}
+#slider {
+    height: 16px;
+}
+
+#slider .noUi-connect {
+    background: rgba(0, 105, 146, 0.55);
+}
+/*006992*/
+#slider .noUi-handle {
+    background: #ecca3e;
+    border: 1px solid #000000;
+    box-shadow:0;
+}
+
+#slider-fit {
+    padding: 0 16px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    /* Magic! */
+    max-width: 85vw;
+}
