@@ -6,5 +6,5 @@ Our project is an interactive map that displays images from a database of histor
 
 The main topic covered in our project is the Pichard belt, which was a series of roads built between 1838 and 1863 that allowed people to bypass the city center without using the narrow, steep, and slippery roads that were in place at the time. The Pichard belt played a significant role in the development of Lausanne in the 19th century, facilitating the transport of goods and people and helping to improve the city's economy.
 
-You can access the website [here](https://tgieruc.github.io/icono_LTM_2021/). 
-You can also directly access the map 🗺️ [here](https://tgieruc.github.io/icono_LTM_2021/#map).
+You can access the website [here](https://tgieruc.github.io/La-Ceinture-Pichard/). 
+You can also directly access the map 🗺️ [here](https://tgieruc.github.io/La-Ceinture-Pichard/#map).
